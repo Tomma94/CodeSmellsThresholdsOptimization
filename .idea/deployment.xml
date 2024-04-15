@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="tommas@132.72.65.199:22 (8)" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="tommas@132.72.65.199:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/sise/home/tommas/Code smells Thresholds Optimization/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="tommas@132.72.65.199:22 (2)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="tommas@132.72.65.199:22 (3)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="tommas@132.72.65.199:22 (4)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="tommas@132.72.65.199:22 (5)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="tommas@132.72.65.199:22 (6)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/pycharm_project_168" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="tommas@132.72.65.199:22 (7)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/sise/home/tommas/Code smells Thresholds Optimization" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="tommas@132.72.65.199:22 (8)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/sise/home/tommas/CodeSmellsThresholdsOptimization" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
