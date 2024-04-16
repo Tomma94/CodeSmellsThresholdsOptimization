@@ -54,7 +54,7 @@ def significance_checker(output_directory, run_number ,results_origin, results_m
         # Iterating over the bars to annotate the p-value
         for i in range(len(x)):
             # Formatting the p-value for display
-            if p_values[i] < 0.001:
+            if p_values[i] < 0.01:
                 exponent = int(np.floor(np.log10(p_values[i])))
                 base = p_values[i] / 10 ** exponent
                 p_text = f"{base:.2f} \\times 10^{{{exponent}}}"
