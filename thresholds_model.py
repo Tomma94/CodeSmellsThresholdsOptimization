@@ -110,7 +110,7 @@ def train_thresholds_model(df_train, seed_arg, output_directory, run_number, num
             # Fake data
             fake_labels = torch.zeros(real_batch_size, 1)
             random_perturbation = (torch.rand_like(
-                loss_per_row) - 0.5) * 2 * 0.2  # Creates a random tensor that it's values is in range [-0.2,0.2] (think if make the range not include 0 and very small numbers)
+                loss_per_row) - 0.5) * 2 * 0.02  # Creates a random tensor that it's values is in range [-0.2,0.2] (think if make the range not include 0 and very small numbers)
             fake_data = torch.cat((thresholds.detach(), loss_per_row + random_perturbation), dim=1)
 
             # Train the Discriminator
