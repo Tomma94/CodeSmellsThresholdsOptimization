@@ -7,7 +7,7 @@ class DynamicNet(nn.Module):
         super(DynamicNet, self).__init__()
         self.layers = nn.ModuleList([nn.Linear(input_size, hidden_size)])
         if num_layers > 0 :
-            self.layers += [nn.Linear(hidden_size, hidden_size) for _ in range(num_layers - 1)]
+            self.layers += [nn.Linear(hidden_size, hidden_size) for _ in range(num_layers)]
         self.layers.append(nn.Linear(hidden_size, output_size))
 
     def forward(self, x):
