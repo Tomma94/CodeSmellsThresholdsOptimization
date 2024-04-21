@@ -63,7 +63,7 @@ The relevance code metrics for these Code Smells are:
 | Depth Of Inheritance                  | DIT          | The length of the inheritance path from a given class to its highest ancestor class. |
 
 ## Data
-The dataset utilized in this research is available at [https://doi.org/10.5281/zenodo.11003978]. 
+The dataset utilized in this research is available at [this link](https://doi.org/10.5281/zenodo.11003978). 
 If you wish to use your own dataset, please ensure that the names of the code metrics correspond with those used in our code. 
 This alignment is crucial for the successful application of the model and analysis scripts provided in this repository.
 
@@ -84,7 +84,7 @@ Additionally, to use the `run.sh` script provided in this repository, ensure tha
 If you prefer to manually run each part of the project, follow these steps:
 
 1. **Prepare the Data:**
-   - Ensure you have the raw data downloaded from [ https://doi.org/10.5281/zenodo.11003978].
+   - Ensure you have the raw data downloaded from [this link](https://doi.org/10.5281/zenodo.11003978).
    - Execute the `train_test_projects_version_split` function from the `data_creation.py` file to preprocess the data and split it into training and testing sets. This script also provides the option to save these sets as CSV files.
 
 2. **Train the Model:**
