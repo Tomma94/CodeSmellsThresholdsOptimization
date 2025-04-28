@@ -3,7 +3,6 @@ This repository includes the training and evaluation code, along with the traine
 
 ## Table of Contents
 - [Motivation](#motivation)
-- [Authors](#authors)
 - [List of Code Smells](#list-of-code-smells)
 - [Data](#data)
 - [How To Run The Code](#how-to-run-the-code)
@@ -23,11 +22,6 @@ This model is designed to enhance specific software practices by determining the
 this research specifically demonstrates the code smell thresholds optimization approach as a case study to leverage the tailored thresholds to improve the performances of defect prediction models.
 
 
-## Authors
-Ben Gurion University of the Negev, Be'er Sheva, Israel.
-- Tom Mashiach - tommas@post.bgu.ac.il
-- Gilad Katz - giladkz@post.bgu.ac.il
-- Meir Kalech - kalech@post.bgu.ac.il
 
 ## List of Code Smells
 The 11 code smells considered in this work:
